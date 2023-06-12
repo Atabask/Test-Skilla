@@ -1,0 +1,23 @@
+.btn {
+    width: 200px;
+    height: 48px;
+    background: #005FF8;
+    border-radius: 4px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn:hover {
+    transition-duration: 0.5s;
+    background: #0024CB;    
+}
+
+.active {
+    background: #274BC8;
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
