@@ -1,5 +1,4 @@
-import { Header } from "../widgets/header/Header"
-
+import { ListOfCalls } from "../widgets/listOfCalls/ListOfCalls"
 
 
 export const CallsPage = () => {
@@ -7,7 +6,7 @@ export const CallsPage = () => {
 
     return (
         <>
-            <Header />
+            <ListOfCalls />
         </>
     )
 }

@@ -1,12 +1,12 @@
 .nav {
-    position: absolute;
+    position: fixed;
     width: 240px;
     height: 100%;
     left: 0px;
     top: 0px;
     background: #091336;
     padding-top: 20px;
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 .menu {

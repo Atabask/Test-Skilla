@@ -1,9 +1,79 @@
+div, p, span{
+    background: none
+}
+
 .header {
     position: absolute;
-    width: 1680px;
+    width: 1663px;
     height: 64px;
     left: 240px;
     top: 0px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px #E9EDF3;
+    display: flex;    
+    align-items: center;
+    padding: 0px 120px 0px 120px;
+    justify-content: space-between;
+}
+
+.date {
+    color: #899CB1;
+    background: inherit;
+}
+
+.sidebar {
+    display: flex;
+    gap: 56px
+}
+
+.color-green {
+    color: #00A775
+}
+
+.color-yellow {
+    color: #FFB800
+}
+
+.color-red {
+    color: #EA1A4F
+}
+
+.container {
+    width: 100%;
+    background: #DEE6F5;
+    border-radius: 12px;
+    height: 6px
+}
+
+.scale {
+    line-height: 40px
+}
+
+.new-calls {
+    width: 40%;
+    background-color: #00A775;
+    height: 6px
+}
+
+.quality {
+    width: 40%;
+    background-color: #FFB800;
+    height: 6px
+}
+
+.order {
+    width: 40%;
+    background-color: #EA1A4F;
+    height: 6px
+}
+
+.user {
+    display: flex
+}
+
+.avatar {
+    background-image: url('./assets/avatarUser.jpg');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
 }

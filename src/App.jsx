@@ -1,6 +1,7 @@
 import './App.css'
 import { CallsPage } from './pages/CallsPage'
 import { NavBar } from './widgets/NavBar/NavBar'
+import { Header } from './widgets/header/Header'
 
 
 export const App = () => {
@@ -8,7 +9,10 @@ export const App = () => {
   return (
     <>
       <NavBar />
-      <CallsPage />
+      <Header />
+      <div className='conteiner'>
+        <CallsPage />
+      </div>
     </>
   )
 }

@@ -1,0 +1,14 @@
+select {
+    border: none;
+    background: inherit;
+    color: #899CB1;
+    padding: 6px 0px 6px 20px;
+    width: auto;
+    height: 40px;
+}
+
+.option {
+    background: inherit;
+    width: auto;
+    height: 40px;
+}
